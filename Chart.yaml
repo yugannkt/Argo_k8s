@@ -1,0 +1,19 @@
+apiVersion: v2
+appVersion: 3.58.1
+description: Helm chart for Sonatype Nexus 3 OSS.
+home: https://www.sonatype.com/nexus-repository-oss
+icon: https://help.sonatype.com/docs/files/331022/34537964/3/1564671303641/NexusRepo_Icon.png
+keywords:
+- artifacts
+- dependency
+- management
+- sonatype
+- nexus
+- repository
+name: sonatype-nexus3
+sources:
+- https://github.com/sonatype/docker-nexus3
+- https://hub.docker.com/r/sonatype/nexus3
+- https://github.com/SimCubeLtd/simcube-helm-charts
+type: application
+version: 1.0
