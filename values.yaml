@@ -289,7 +289,7 @@ readinessProbe:
   timeoutSeconds: 1
 
 service:
-  type: LoadBalancer
+  type: ClusterIP
   port: 8081
 
 ingress:
