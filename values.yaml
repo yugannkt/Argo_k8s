@@ -292,8 +292,13 @@ service:
   type: ClusterIP
   port: 8081
 
+# ingress:
+#   enabled: false
 ingress:
-  enabled: false
+  enabled: true
+  host: nexus.pocdevops.shop
+  path: /
+
 
 persistence:
   enabled: true
