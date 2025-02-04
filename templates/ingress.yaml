@@ -54,4 +54,4 @@ spec:
           service:
             name: nexus-sonatype-nexus3
             port:
-              number: 8081
+              number: 8080
