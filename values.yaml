@@ -258,7 +258,7 @@ image:
 
 serviceAccount:
   create: true
-  name: ""
+  name: "nexus-sonatype-nexus3"
 
 deployment: false
 
